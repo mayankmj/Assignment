@@ -6,10 +6,7 @@ import { API_NOTIFICATION_MESSAGES,SERVICE_URLS } from '../constants/config'; //
 
 import { getAccessToken,getType } from '../utils/common-utils';
 
-// const API_URL = 'https://onestop1.onrender.com'; // backend url
-
-//  const API_URL = 'https://blinkit-assign.onrender.com'
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://assignment-u81b.onrender.com';
 
 const axiosInstance = axios.create({
     baseURL: API_URL,

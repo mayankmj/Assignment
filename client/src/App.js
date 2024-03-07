@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route,Navigate } from 'react-router-dom';
-import Login from './components/account/login'; // Assuming the correct path to the Login component
-import ForgotPassword from './components/account/ForgotPassword'; // Import the ForgotPasswordPage component
+import Login from './components/account/login'; 
+import ForgotPassword from './components/account/ForgotPassword'; 
 import DataProvider from './context/DataProvider';
 import Home from './components/home/Home';
 // import Header from './components/header/Header';

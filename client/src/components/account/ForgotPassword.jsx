@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Box, TextField, Button, Typography } from '@mui/material';
-import { forgotPassword } from '../../service/forgotPasswordApi'; // Import the forgotPassword function
+import { forgotPassword } from '../../service/forgotPasswordApi'; 
 
 const ForgotPassword = () => {
   const [email, setEmail] = useState('');
@@ -9,7 +9,7 @@ const ForgotPassword = () => {
   const handleForgotPassword = async () => {
     console.log(email);
     try {
-      const response = await forgotPassword(email); // Call the forgotPassword function
+      const response = await forgotPassword(email); 
       if (response.status === 200) {
         setMessage(response.data.message);
         console.log("hello from 200");

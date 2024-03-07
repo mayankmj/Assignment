@@ -1,7 +1,7 @@
 // forgotPasswordApi.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://assignment-u81b.onrender.com';
 
 const axiosInstance = axios.create({
     baseURL: API_URL,
