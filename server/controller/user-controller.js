@@ -37,7 +37,7 @@ export const forgotPassword = async (request, response) => {
       const email = request;
       console.log(request);
       const token = generatePasswordResetToken(email);
-      const resetLink = `http://localhost:3000/reset-password/${token}`;
+      const resetLink = `${process.env.FRONT_END_URL}/reset-password/${token}`;
     
       // Compose email message
       const mailOptions = {
